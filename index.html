@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Home</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="./css/materialize.min.css">
     <script src="./js/materialize.min.js"></script>
     <link rel="stylesheet" href="./css/allstyle.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
@@ -25,11 +28,12 @@
     </li>
 
 
-    <li><a style="color: white" href="https://vimeo.com/user12370668">Vimeo</a></li>
-    <li><a style="color: white" href="https://github.com/gearslogy">Github</a></li>
-
+    <li><a style="color: white" href="https://vimeo.com/user12370668"><i
+            class="material-icons">personal_video</i>Vimeo</a></li>
+    <li><a style="color: white" href="https://github.com/gearslogy"><i class="material-icons">code</i>Github</a>
+    </li>
 </ul>
-<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<!--a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a-->
 
 
 <header>
@@ -38,57 +42,135 @@
 </header>
 
 <main>
+    <div class="info-all">
+        <div class="parallax-container">
+            <div class="parallax"><img src="imgs/bg3.jpg"></div>
+        </div>
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Personal Details</h2>
+                <!--p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
+                    in this case, is moved at a different speed than the foreground content while scrolling.</p-->
+
+
+                <div class="info">
+                    <div class="row">
+                        <div class="col s12 m12">
+                            <div class="card">
+                                <!--div class="card-image">
+                                    <img src="imgs/bg2.png" >
+                                    <span class="card-title">Personal Info</span>
+                                </div-->
+                                <div class="card-content">
+                                    <blockquote>
+                                        Name:Yangping Liu
+                                    </blockquote>
+
+                                    <blockquote>
+                                        Location:China
+                                    </blockquote>
+
+                                    <blockquote>
+                                        Age:27
+                                    </blockquote>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="imgs/bg4.jpg"></div>
+        </div>
+
+
+        <div class="section white">
+            <div class="row container">
+                <h2 class="header">Skills</h2>
+                <!--p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
+                    in this case, is moved at a different speed than the foreground content while scrolling.</p-->
+
+                <div class="info">
+                    <div class="row">
+                        <div class="col s12 m12">
+                            <div class="card">
+                                <!--div class="card-image">
+                                    <img src="imgs/bg2.png" >
+                                    <span class="card-title">Personal Info</span>
+                                </div-->
+                                <div class="card-content">
+                                    <blockquote>
+                                        5 years of Programming/VFX experience
+                                    </blockquote>
+
+                                    <blockquote>
+                                        Skills:C++/Python/Lua/javascript<br>
+                                    </blockquote>
+
+                                    <blockquote>
+                                        Math:Numerical Analysis
+                                    </blockquote>
+
+                                    <blockquote>
+                                        DCC API:Katana/Houdini/Maya
+                                    </blockquote>
+
+                                    <blockquote>
+                                        Other API: Arnold/Alembic/OpenVDB/OpenEXR/Django...
+                                    </blockquote>
+
+                                    <blockquote>
+                                        SomePlugins:<br>
+                                        >> vdbFromParticles for Katana/Arnold << <a
+                                            href="http://www.cnblogs.com/gearslogy/p/6544003.html">For particles volume
+                                        rendering in Katana </a> <br>
+                                        >> Muster Plugin << NetworkRendering for Katana/Houdini <br>
+                                        >> Instance Plugin << Support Houdini/Maya points create instances in Katana<br>
+                                        >> TCP RendererCmdController << <a
+                                            href="https://github.com/gearslogy/RendererCmdController">some commands that
+                                        can
+                                        control the linux's renderer clients</a> <br>
+                                        >> Parallax Mapping Shader << <a
+                                            href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vy77.html">Mantra/Arnold</a><br>
+                                        >> H2M << <a href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vqn9.html">Rendering
+                                        Houdini attributes in Maya</a><br>
+                                        >> UniformScatter << <a
+                                            href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vof5.html">Scatter
+                                        points in maya create forest</a><br>
+                                        >> Large Scripts for Maya/Katana<< <br>
+                                        ......
+                                    </blockquote>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax"><img src="imgs/bg2.png"></div>
+        </div>
+
+    </div>
+
+
     <div class="container">
 
-        <div class="info">
-            <div class="row">
-                <div class="col s12 m12">
-                    <div class="card">
-                        <!--div class="card-image">
-                            <img src="imgs/bg2.png" >
-                            <span class="card-title">Personal Info</span>
-                        </div-->
-                        <div class="card-content">
-                            <blockquote>
-                                5 years of Programming/VFX experience
-                            </blockquote>
 
-                            <blockquote>
-                                Skills:C++/Python/Lua/javascript<br>
-                            </blockquote>
-
-                            <blockquote>
-                                Math:Numerical Analysis
-                            </blockquote>
-
-                            <blockquote>
-                                API: Katana/Houdini/Maya/Arnold/Alembic/OpenVDB/OpenEXR/Django...
-
-                            </blockquote>
-                            <blockquote>
-                                SomePlugins:<br>
-                                >> vdbFromParticles for Katana/Arnold <<  <a href="http://www.cnblogs.com/gearslogy/p/6544003.html">For particles volume rendering in Katana </a> <br>
-                                >> Muster Plugin << NetworkRendering for Katana/Houdini <br>
-                                >> Instance Plugin << Support Houdini/Maya points create instances in Katana<br>
-                                >> TCP RendererCmdController <<  <a href="https://github.com/gearslogy/RendererCmdController">some commands that can control the linux's renderer clients</a> <br>
-                                >> Parallax Mapping Shader << <a href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vy77.html">Mantra/Arnold</a><br>
-                                >> H2M << <a href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vqn9.html">Rendering Houdini attributes in Maya</a><br>
-                                >> UniformScatter << <a href="http://blog.sina.com.cn/s/blog_6cc3a5b90102vof5.html">Scatter points in maya create forest</a><br>
-                                >> Large Scripts for Maya/Katana<< <br>
-                                ......
-                            </blockquote>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
     </div>
 
 
